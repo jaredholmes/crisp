@@ -1,0 +1,72 @@
+.navbar, .navbar *
+  z-index 1
+
+.navbar
+  padding s-2 s1
+  background-color white
+  overflow-x hidden
+  display flex
+  align-items center
+  justify-content space-between
+
+  a:hover
+    text-decoration none
+
+  > .navbar-heading
+    align-items center
+    margin-top 0
+    margin-bottom 0
+    font-size 1.5rem
+
+  // Centered navbar heading
+  > .navbar-heading.navbar-heading-center
+    margin 0
+    position relative
+    left 50%
+    transform translateX(-50%)
+
+  > .navbar-nav
+    @media md-down
+      background-color white
+      flex-basis 100%
+      flex-direction column
+      position fixed
+      top 0
+      bottom 0
+      right 0
+      left 100%
+      transition left 250ms, padding 250ms
+
+      *
+        display none
+
+    > .nav-link + .nav-link
+      @media md-up
+        padding-left s1
+
+      @media md-down
+        padding-top s1
+
+    > .nav-link
+      transition color .3s
+      
+      @media md-down
+        padding-top s1
+
+  // When navbar-nav is open
+  > .navbar-nav.shown
+    left 0
+    padding s1
+
+    *
+      display initial
+
+  > .navbar-nav-toggle, .navbar-nav-close
+    @media md-up
+      display none
+
+.navbar.navbar-sticky
+  position sticky
+  top 0
+  left 0
+  right 0

@@ -1,0 +1,19 @@
+.alert {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: s-2;
+  z-index: 998;
+  font-weight: 400;
+}
+.alert .alert-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.alert.shown {
+  display: block;
+}

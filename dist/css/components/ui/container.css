@@ -1,0 +1,28 @@
+.container {
+  padding-left: s1;
+  padding-right: s1;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+@media sm-up {
+  .container {
+    max-width: 540px;
+  }
+}
+@media md-up {
+  .container {
+    max-width: 720px;
+  }
+}
+@media lg-up {
+  .container {
+    max-width: 960px;
+  }
+}
+@media xl-up {
+  .container {
+    max-width: 1140px;
+  }
+}

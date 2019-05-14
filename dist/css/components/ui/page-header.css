@@ -1,0 +1,12 @@
+.page-header {
+  padding: s3;
+  margin-bottom: s3;
+}
+.page-header .page-header-subtitle {
+  font-weight: 300;
+}
+@media md-down {
+  .page-header {
+    padding: s3 s1;
+  }
+}

@@ -1,0 +1,1 @@
+.flex{display:flex;flex-flow:wrap;flex-direction:row}.flex.align-center{align-items:center}.flex.align-start{align-items:flex-start}.flex.align-end{align-items:flex-end}.flex.justify-between{justify-content:space-between}.flex.justify-around{justify-content:space-around}.flex.nowrap{flex-flow:nowrap}.flex.dir-col{flex-direction:column}

@@ -1,0 +1,1 @@
+.spinner{display:block;position:relative;border-radius:50%;border-style:solid;border-top-color:transparent;animation:spinner 750ms ease infinite;border-width:4px;height:s2;width:s2}.spinner.spinner-linear{animation-timing-function:linear}.spinner.spinner-sm{border-width:3px;height:s1;width:s1}.spinner.spinner-lg{border-width:5px;height:s3;width:s3}

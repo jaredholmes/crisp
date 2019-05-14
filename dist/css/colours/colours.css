@@ -1,0 +1,122 @@
+body {
+  background-color: #fff;
+  color: #000;
+}
+a,
+a:hover,
+a:visited,
+a:active {
+  color: #2184b2;
+}
+.c-white,
+.c-hover-white:hover,
+a.c-white,
+a.c-hover-white:hover {
+  color: #fff;
+}
+.bc-white,
+.bc-hover-white:hover {
+  background-color: #fff;
+}
+.border-white,
+.border-hover-white:hover {
+  border: 1px solid #fff;
+}
+.c-black,
+.c-hover-black:hover,
+a.c-black,
+a.c-hover-black:hover {
+  color: #000;
+}
+.bc-black,
+.bc-hover-black:hover {
+  background-color: #000;
+}
+.border-black,
+.border-hover-black:hover {
+  border: 1px solid #000;
+}
+.c-grey,
+.c-hover-grey:hover,
+a.c-grey,
+a.c-hover-grey:hover {
+  color: #ededed;
+}
+.bc-grey,
+.bc-hover-grey:hover {
+  background-color: #ededed;
+}
+.border-grey,
+.border-hover-grey:hover {
+  border: 1px solid #ededed;
+}
+.c-charcoal,
+.c-hover-charcoal:hover,
+a.c-charcoal,
+a.c-hover-charcoal:hover {
+  color: #828282;
+}
+.bc-charcoal,
+.bc-hover-charcoal:hover {
+  background-color: #828282;
+}
+.border-charcoal,
+.border-hover-charcoal:hover {
+  border: 1px solid #828282;
+}
+.c-primary,
+.c-hover-primary:hover,
+a.c-primary,
+a.c-hover-primary:hover {
+  color: #2c393f;
+}
+.bc-primary,
+.bc-hover-primary:hover {
+  background-color: #2c393f;
+}
+.border-primary,
+.border-hover-primary:hover {
+  border: 1px solid #2c393f;
+}
+.c-secondary,
+.c-hover-secondary:hover,
+a.c-secondary,
+a.c-hover-secondary:hover {
+  color: #00c7c7;
+}
+.bc-secondary,
+.bc-hover-secondary:hover {
+  background-color: #00c7c7;
+}
+.border-secondary,
+.border-hover-secondary:hover {
+  border: 1px solid #00c7c7;
+}
+.c-text-primary,
+.c-hover-text-primary:hover,
+a.c-text-primary,
+a.c-hover-text-primary:hover {
+  color: #000;
+}
+.bc-text-primary,
+.bc-hover-text-primary:hover {
+  background-color: #000;
+}
+.border-text-primary,
+.border-hover-text-primary:hover {
+  border: 1px solid #000;
+}
+.c-text-secondary,
+.c-hover-text-secondary:hover,
+a.c-text-secondary,
+a.c-hover-text-secondary:hover {
+  color: #2184b2;
+}
+.bc-text-secondary,
+.bc-hover-text-secondary:hover {
+  background-color: #2184b2;
+}
+.border-text-secondary,
+.border-hover-text-secondary:hover {
+  border: 1px solid #2184b2;
+}

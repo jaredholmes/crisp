@@ -1,0 +1,18 @@
+.collapsible
+
+  > .collapsible-header:hover
+    cursor pointer
+
+  > .collapsible-content
+    overflow hidden
+    opacity 0
+    max-height 0
+    transition max-height 250ms ease, opacity 500ms
+
+.collapsible.shown
+
+  > .collapsible-content
+    max-height 1000px
+    opacity 1
+    // Transition needs to be longer because it is quicker on the way back up
+    transition-duration 500ms

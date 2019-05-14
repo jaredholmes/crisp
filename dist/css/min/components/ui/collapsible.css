@@ -1,0 +1,1 @@
+.collapsible>.collapsible-header:hover{cursor:pointer}.collapsible>.collapsible-content{overflow:hidden;opacity:0;max-height:0;transition:max-height 250ms ease,opacity .5s}.collapsible.shown>.collapsible-content{max-height:1000px;opacity:1;transition-duration:.5s}

@@ -1,0 +1,23 @@
+// Form
+form, .form
+
+  // Form section spaces items within a form
+  .form-section:not(:last-child)
+    margin-bottom s1
+
+  // All necessary inputs
+  .form-input[type=text], .form-input[type=number], .form-input[type=email], .form-input[type=date], .form-input[type=password], .form-input[type=tel],
+  .form-input[type=time], .form-input[type=url], .form-input[type=week], .form-input[type=month], .form-input[type=datetime-local], .form-input[type=datetime], .form-input[type=file], .form-input[type=range]
+    display block
+    font-size 1rem
+    padding s-4
+    width 100%
+
+  label
+    font-weight 400
+
+    + .form-input
+      margin-top s-2
+
+  .form-input-comment
+    font-size .75rem

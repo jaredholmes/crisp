@@ -1,0 +1,43 @@
+// Modal
+.modal
+  display none
+  position fixed
+  top 0
+  left 0
+  width 100%
+  height 100%
+  z-index 997
+
+  // Modal background, places focus on the modal main
+  > .modal-background
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    background-color rgba(0, 0, 0, 0.5)
+
+  > .modal-main
+    background-color white
+    min-width 50%
+    padding s2
+    z-index 998
+
+    @media md-down
+      padding s2 s1
+
+    > .modal-close
+      display block
+      margin-left auto
+      margin-right -1.5rem
+      margin-top -1.5rem
+      width fit-content
+
+      @media md-down
+        margin-right 0
+
+.modal.shown
+  display flex
+  align-items center
+  justify-content space-around
+  

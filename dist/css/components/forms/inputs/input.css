@@ -1,0 +1,49 @@
+form .form-section:not(:last-child),
+.form .form-section:not(:last-child) {
+  margin-bottom: s1;
+}
+form .form-input[type=text],
+.form .form-input[type=text],
+form .form-input[type=number],
+.form .form-input[type=number],
+form .form-input[type=email],
+.form .form-input[type=email],
+form .form-input[type=date],
+.form .form-input[type=date],
+form .form-input[type=password],
+.form .form-input[type=password],
+form .form-input[type=tel],
+.form .form-input[type=tel],
+form .form-input[type=time],
+.form .form-input[type=time],
+form .form-input[type=url],
+.form .form-input[type=url],
+form .form-input[type=week],
+.form .form-input[type=week],
+form .form-input[type=month],
+.form .form-input[type=month],
+form .form-input[type=datetime-local],
+.form .form-input[type=datetime-local],
+form .form-input[type=datetime],
+.form .form-input[type=datetime],
+form .form-input[type=file],
+.form .form-input[type=file],
+form .form-input[type=range],
+.form .form-input[type=range] {
+  display: block;
+  font-size: 1rem;
+  padding: s-4;
+  width: 100%;
+}
+form label,
+.form label {
+  font-weight: 400;
+}
+form label + .form-input,
+.form label + .form-input {
+  margin-top: s-2;
+}
+form .form-input-comment,
+.form .form-input-comment {
+  font-size: 0.75rem;
+}

@@ -1,0 +1,34 @@
+// Colours Hash
+colours = {
+    // Named Colours
+    white: #ffffff
+    black: #000000
+    grey: #EDEDED
+    charcoal: #828282
+
+    // Theme Colours
+    primary: #2C393F
+    secondary: #00C7C7
+    text-primary: black
+    text-secondary: #2184b2
+}
+
+// Element Colours
+body
+    background-color white
+    color colours["text-primary"]
+
+a, a:hover, a:visited, a:active
+    color colours["text-secondary"]
+
+// Colour classes
+for name, colour in colours
+    // Colour, background colour & border colour classes for each colour
+    .c-{name}, .c-hover-{name}:hover, a.c-{name}, a.c-hover-{name}:hover
+        color colour
+        
+    .bc-{name}, .bc-hover-{name}:hover
+        background-color colour
+
+    .border-{name}, .border-hover-{name}:hover
+        border 1px solid colour
