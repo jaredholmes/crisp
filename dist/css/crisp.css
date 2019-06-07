@@ -514,6 +514,7 @@ input[type=submit]:hover {
 .navbar > .navbar-nav.shown {
   left: 0;
   padding: 1.5rem;
+  z-index: 2;
 }
 .navbar > .navbar-nav.shown * {
   display: initial;
