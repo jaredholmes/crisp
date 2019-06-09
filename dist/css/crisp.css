@@ -488,9 +488,7 @@ input[type=submit]:hover {
     right: 0;
     left: 100%;
     transition: left 250ms, padding 250ms;
-  }
-  .navbar > .navbar-nav * {
-    display: none;
+    z-index: 2;
   }
 }
 @media (min-width: 768px) {
@@ -514,7 +512,6 @@ input[type=submit]:hover {
 .navbar > .navbar-nav.shown {
   left: 0;
   padding: 1.5rem;
-  z-index: 2;
 }
 .navbar > .navbar-nav.shown * {
   display: initial;
