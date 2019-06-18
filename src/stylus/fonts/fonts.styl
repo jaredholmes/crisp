@@ -15,10 +15,23 @@ for name, weight in font-weights
     .fw-{name}
         font-weight weight
 
+// Font families
+ff-primary = -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+ff-secondary = Georgia, serif
+
+.ff-primary
+    font-family ff-primary
+
+.ff-secondary
+    font-family ff-secondary
+
 body, input
     font-size font-size
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+    font-family: ff-primary
     font-weight font-weights["light"]
+
+p
+    font-family ff-secondary
 
 // Heading font sizes
 h1

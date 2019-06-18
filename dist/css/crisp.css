@@ -104,6 +104,10 @@ ul {
   list-style: none;
   line-height: 2;
 }
+.view {
+  min-height: 100vh;
+  margin-bottom: 10.5rem;
+}
 .flex {
   display: flex;
   flex-flow: wrap;
@@ -145,11 +149,20 @@ ul {
 .fw-bold {
   font-weight: 700;
 }
+.ff-primary {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.ff-secondary {
+  font-family: Georgia, serif;
+}
 body,
 input {
   font-size: 16px;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 300;
+}
+p {
+  font-family: Georgia, serif;
 }
 h1 {
   font-size: 2.5rem;
