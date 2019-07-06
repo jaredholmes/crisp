@@ -470,7 +470,6 @@ input[type=submit]:hover {
 .navbar {
   padding: 0.75rem 1.5rem;
   background-color: #fff;
-  overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
